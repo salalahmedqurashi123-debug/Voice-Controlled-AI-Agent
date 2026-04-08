@@ -35,6 +35,15 @@ Chat-CED is a highly interactive, voice-controlled AI chatbot. It combines natur
 * `pyautogui` (System/Cursor automation)
 * `python-dotenv` (Environment variable management)
 
+
+├── chat bot backend.py      # FastAPI server & AI logic
+├── chat bot frontend.Html   # Main user interface
+├── script.js                # Frontend functionality & API calls
+├── .env                     # API keys (Not tracked by git)
+├── bg.jpg                   # Background image
+└── README.md                # Project documentation
+
+
 ## 🚀 Getting Started
 
 Follow these steps to run this project on your local machine.
@@ -67,13 +76,7 @@ Bash
 git clone [https://github.com/yourusername/chat-ced.git](https://github.com/yourusername/chat-ced.git)
 cd chat-ced
 2. Install required Python packages:
-Install the necessary libraries to run this project:
 
-Bash
-pip install fastapi uvicorn SpeechRecognition pyttsx3 google-generativeai pyautogui python-dotenv PyAudio
-(Note: PyAudio is required to record audio from your microphone.)
-
-3. Configure Environment Variables:
 Create a new file named .env in the project folder and paste your API key like this:
 
 Code snippet
