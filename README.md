@@ -111,7 +111,7 @@ Click the microphone button and try these commands:
 "Scroll down" / "Scroll up" - Scrolls the current active window.
 
 "Exit" / "Quit" - Closes the assistant.
-'''
+```
 
 <img width="449" height="694" alt="image" src="https://github.com/user-attachments/assets/959e2766-2dd2-47e1-af11-af9dfbc9bdaf" />
 
