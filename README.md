@@ -50,7 +50,68 @@ Follow these steps to run this project on your local machine.
 ```bash
 git clone [https://github.com/yourusername/chat-ced.git](https://github.com/yourusername/chat-ced.git)
 cd chat-ced
-```
+
+Getting Started
+Follow these steps to set up and run this project on your local machine.
+
+Prerequisites
+Python 3.8+ must be installed on your system.
+
+Google Gemini API Key (You can get this for free from Google AI Studio).
+
+Installation Steps
+1. Clone the repository:
+Open your terminal or command prompt and run the following commands:
+
+Bash
+git clone [https://github.com/yourusername/chat-ced.git](https://github.com/yourusername/chat-ced.git)
+cd chat-ced
+2. Install required Python packages:
+Install the necessary libraries to run this project:
+
+Bash
+pip install fastapi uvicorn SpeechRecognition pyttsx3 google-generativeai pyautogui python-dotenv PyAudio
+(Note: PyAudio is required to record audio from your microphone.)
+
+3. Configure Environment Variables:
+Create a new file named .env in the project folder and paste your API key like this:
+
+Code snippet
+GEMINI_API_KEY=paste_your_actual_api_key_here
+▶️ How to Run the Application
+Step 1: Start the Backend Server
+Run the following command in your terminal within the project folder to start the AI and API server:
+
+Bash
+python "chat bot backend.py"
+The server will start successfully and run on http://127.0.0.1:5000.
+
+Step 2: Launch the Frontend UI
+No separate server is needed for the frontend.
+
+Simply navigate to your project folder and double-click the chat bot frontend.Html file to open it in your browser (like Chrome, Edge, or Safari).
+
+Alternatively, if you are using VS Code, right-click the file and select "Open with Live Server".
+
+Step 3: Start Interacting!
+
+Text Mode: Type your message in the input box and click Send.
+
+Voice Mode: Click the Microphone icon on the screen to talk directly to the AI or give system commands.
+
+🗣️ Voice Commands Guide
+Click the microphone button and try these commands:
+
+"Search on YouTube [query]" - Searches for the query on YouTube.
+
+"Play [song name]" - Searches and plays the first video result on YouTube.
+
+"Search Google [query]" - Performs a Google search.
+
+"Scroll down" / "Scroll up" - Scrolls the current active window.
+
+"Exit" / "Quit" - Closes the assistant.
+'''
 
 <img width="449" height="694" alt="image" src="https://github.com/user-attachments/assets/959e2766-2dd2-47e1-af11-af9dfbc9bdaf" />
 
