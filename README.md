@@ -34,16 +34,16 @@ Chat-CED is a highly interactive, voice-controlled AI chatbot. It combines natur
 * `pyttsx3` (Audio output)
 * `pyautogui` (System/Cursor automation)
 * `python-dotenv` (Environment variable management)
-
-
+```
+* Voice-Controlled-AI-Agent/
 ├── chat bot backend.py      # FastAPI server & AI logic
 ├── chat bot frontend.Html   # Main user interface
 ├── script.js                # Frontend functionality & API calls
 ├── .env                     # API keys (Not tracked by git)
 ├── bg.jpg                   # Background image
-└── README.md                # Project documentation
-
-
+├── README.md                # Project documentation
+└── requirements.txt         # Project dependencies (libraries)
+```
 ## 🚀 Getting Started
 
 Follow these steps to run this project on your local machine.
@@ -95,7 +95,7 @@ No separate server is needed for the frontend.
 Simply navigate to your project folder and double-click the chat bot frontend.Html file to open it in your browser (like Chrome, Edge, or Safari).
 
 Alternatively, if you are using VS Code, right-click the file and select "Open with Live Server".
-
+```
 Step 3: Start Interacting!
 
 Text Mode: Type your message in the input box and click Send.
@@ -114,7 +114,9 @@ Click the microphone button and try these commands:
 "Scroll down" / "Scroll up" - Scrolls the current active window.
 
 "Exit" / "Quit" - Closes the assistant.
-```
 
+```
+# ⚙️ System Architecture & Data Flow
+```
 <img width="449" height="694" alt="image" src="https://github.com/user-attachments/assets/959e2766-2dd2-47e1-af11-af9dfbc9bdaf" />
 
