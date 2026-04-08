@@ -116,7 +116,9 @@ Click the microphone button and try these commands:
 "Exit" / "Quit" - Closes the assistant.
 
 ```
-# ⚙️ System Architecture & Data Flow
+```
+## **⚙️ System Architecture & Data Flow**
+```
 ```
 <img width="449" height="694" alt="image" src="https://github.com/user-attachments/assets/959e2766-2dd2-47e1-af11-af9dfbc9bdaf" />
 
